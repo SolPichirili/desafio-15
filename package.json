@@ -1,0 +1,25 @@
+{
+  "name": "desafio14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "node ./profiling/autocannon-0x/test.js",
+    "start": "nodemon ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "firebase": "^9.6.2",
+    "firebase-admin": "^10.0.1",
+    "mongoose": "^6.1.6",
+    "nodemon": "^2.0.15",
+    "winston": "^3.4.0"
+  },
+  "devDependencies": {
+    "autocannon": "^7.6.0"
+  }
+}
